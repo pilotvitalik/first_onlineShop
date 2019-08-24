@@ -1,0 +1,96 @@
+header {
+  height: 82px;
+}
+header img {
+  height: 55px;
+  left: -5%;
+}
+header nav {
+  width: 500px;
+  height: 100%;
+}
+header nav .gamb {
+  display: none;
+}
+header nav div:last-child ul {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+header nav div:last-child ul li a {
+  font-size: 14px;
+}
+header .options {
+  width: 146px;
+  right: -5%;
+}
+header .options .search,
+header .options .set,
+header .options .box {
+  width: 20px;
+  height: 20px;
+  background-position: -1px 68px;
+}
+header .options .set {
+  background-position: -1px -2px;
+}
+header .options .box {
+  background-position: -1px -83px;
+}
+main > aside {
+  height: 661px;
+}
+main > aside h2,
+main > aside button,
+main > aside span,
+main > aside a {
+  font-size: 18px;
+  letter-spacing: 2px;
+}
+main > aside h2:first-child {
+  top: 205px;
+  right: 55%;
+}
+main > aside h2:nth-child(2) {
+  top: 215px;
+  right: 45%;
+  font-size: 60px;
+}
+main > aside .exp {
+  width: 200px;
+  height: 50px;
+  top: 435px;
+  right: 52.8%;
+  font-size: 15px;
+  padding: 0 25px;
+}
+main > aside > span {
+  width: 210px;
+  top: 524px;
+  right: 52.5%;
+}
+main > aside .left,
+main > aside .right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 30px;
+  height: 30px;
+  top: 509px;
+  right: 8%;
+  font-size: 50px;
+  letter-spacing: -7px;
+  line-height: 25px;
+}
+main > aside .left {
+  left: 8%;
+}
+main > aside .slider > span {
+  font-size: 24px;
+  top: 510px;
+  right: 49%;
+}

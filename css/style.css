@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  position: relative;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+header img {
+  display: block;
+  position: relative;
+  max-width: 100%;
+  margin: auto 0;
+}
+header nav {
+  display: block;
+  position: relative;
+  outline: none;
+}
+header nav .gamb {
+  position: relative;
+}
+header nav div:last-child {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+header nav div:last-child ul {
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style-type: none;
+}
+header nav div:last-child ul li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin: auto 0;
+  width: auto;
+}
+header nav div:last-child ul li a {
+  text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
+  color: #666;
+  font-weight: 600;
+}
+header nav div:last-child ul li span {
+  display: inline-block;
+  position: relative;
+  margin: 0;
+}
+header nav div:last-child ul li span a {
+  display: inline-block;
+  padding-left: 4px;
+  padding-right: 2px;
+}
+header .options {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  position: relative;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  height: 100%;
+}
+header .options .search,
+header .options .set,
+header .options .box {
+  display: block;
+  position: relative;
+  margin: auto 0;
+  background: url(../img/sprite/sprite.svg);
+}
+main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  position: relative;
+  height: auto;
+}
+main > aside {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  position: relative;
+  width: 100%;
+}
+main > aside h2,
+main > aside button,
+main > aside span,
+main > aside a {
+  display: inline-block;
+  position: absolute;
+  color: #fff;
+  font-family: 'Lato', sans-serif;
+}
+main > aside h2:first-child {
+  z-index: 10;
+}
+main > aside h2:nth-child(2) {
+  font-family: 'Montserrat', sans-serif;
+  letter-spacing: 1px;
+  font-weight: 900;
+  text-align: center;
+  z-index: 10;
+}
+main > aside .exp {
+  display: block;
+  font-family: 'Montserrat', sans-serif;
+  background: transparent;
+  border: solid 1px #fa4772;
+  z-index: 10;
+}
+main > aside > span {
+  display: inline-block;
+  height: 1px;
+  background-color: #fa4772;
+  letter-spacing: 1px;
+  z-index: 10;
+}
+main > aside .left,
+main > aside .right {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  background: transparent;
+  border: none;
+  text-decoration: none;
+  font-weight: 900;
+  z-index: 10;
+}
+main > aside a:hover {
+  color: #fa4772;
+}
+main > aside .slider {
+  display: block;
+  position: relative;
+  width: inherit;
+  height: inherit;
+  overflow: hidden;
+}
+main > aside .slider img {
+  width: inherit;
+  max-width: 1920px;
+  max-height: 940px;
+  height: inherit;
+  position: absolute;
+}
+main > aside .slider > span {
+  display: inline-block;
+  color: #fff;
+  letter-spacing: 1px;
+  z-index: 10;
+}
