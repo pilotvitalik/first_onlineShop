@@ -118,7 +118,7 @@ main > aside a {
   font-family: 'Lato', sans-serif;
 }
 main > aside h2:first-child {
-  z-index: 10;
+  z-index: 180;
 }
 main > aside h2:nth-child(2) {
   font-family: 'Montserrat';
@@ -511,4 +511,300 @@ main > article .feedback form button {
 }
 main > article .feedback form button:hover {
   cursor: pointer;
+}
+footer {
+  display: block;
+  position: relative;
+  width: 100%;
+  height: 425px;
+  padding: 0;
+  margin: 0;
+  border: solid 1px #ff0000;
+}
+footer article {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+footer article h2 {
+  display: none;
+}
+footer article section:nth-child(2) {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  position: relative;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 85%;
+  height: 200px;
+  padding: 0;
+  margin: 0 auto;
+}
+footer article section:nth-child(2) h3 {
+  display: none;
+}
+footer article section:nth-child(2) .h4 {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  margin: 0;
+  color: #505050;
+  font-family: 'Lato', sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+footer article section:nth-child(2) .about {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  position: relative;
+  width: 245px;
+  height: 182px;
+  padding: 0;
+  margin: 0;
+}
+footer article section:nth-child(2) .about p {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  margin: 0;
+  color: #505050;
+  font-family: 'Lato', sans-serif;
+  font-size: 14px;
+  line-height: 25px;
+}
+footer article section:nth-child(2) .footerMenu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  position: relative;
+  width: 190px;
+  height: 190px;
+  margin: 0;
+}
+footer article section:nth-child(2) .footerMenu > div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  width: 100%;
+  height: 130px;
+  margin: 0;
+}
+footer article section:nth-child(2) .footerMenu > div ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+}
+footer article section:nth-child(2) .footerMenu > div ul li {
+  display: block;
+  position: relative;
+  width: 100%;
+  margin: 0;
+}
+footer article section:nth-child(2) .footerMenu > div ul li a {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  margin: 0;
+  color: #404040;
+  font-family: 'Lato', sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+}
+footer article section:nth-child(2) .foto {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  position: relative;
+  width: 300px;
+  height: 193.5px;
+  margin: 0;
+}
+footer article section:nth-child(2) .foto h4 {
+  display: none;
+}
+footer article section:nth-child(2) .foto > div {
+  display: block;
+  position: relative;
+  width: 87px;
+  height: 87px;
+  margin: 0;
+  background: url(../img/footer/sprite.jpg) #808080 no-repeat;
+  background-size: 315% 210%;
+  background-position: -3px -3px;
+}
+footer article section:nth-child(2) .foto #_2 {
+  background-position: -94px -3px;
+}
+footer article section:nth-child(2) .foto #_3 {
+  background-position: -185px -3px;
+}
+footer article section:nth-child(2) .foto #_4 {
+  background-position: -3px -93px;
+}
+footer article section:nth-child(2) .foto #_5 {
+  background-position: -94px -93px;
+}
+footer article section:nth-child(2) .foto #_6 {
+  background-position: -185px -93px;
+}
+footer article section:last-child h3 {
+  display: none;
+}
+footer article section:last-child .social {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  position: relative;
+  width: 200px;
+  height: 183px;
+  top: 0px;
+  left: 0px;
+  padding: 0;
+  margin: 0;
+}
+footer article section:last-child .social span {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  height: 20px;
+  margin: 0;
+  color: #000000;
+  opacity: 0.8;
+  font-family: "BebasNeue";
+  font-size: 35px;
+  font-weight: 700;
+  text-transform: uppercase;
+  line-height: 37px;
+  letter-spacing: 0.38px;
+}
+footer article section:last-child .social > div {
+  display: block;
+  position: relative;
+  width: 276px;
+  height: 100px;
+  top: 0px;
+  left: 0px;
+  padding: 0;
+  margin: 0;
+}
+footer article section:last-child .social > div ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  position: relative;
+  width: 200px;
+  height: 183px;
+  top: 0px;
+  left: 0px;
+  padding: 0;
+  margin: 0;
+}
+footer article section:last-child .social > div ul li {
+  display: block;
+  position: relative;
+  width: 276px;
+  height: 100px;
+  top: 0px;
+  left: 0px;
+  padding: 0;
+  margin: 0;
+  background: url() #808080 no-repeat;
+  background-size: cover;
+  background-position: 0px 0px;
+}
+footer article section:last-child .social > div ul li a {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  height: 20px;
+  margin: 0;
+  color: #000000;
+  opacity: 0.8;
+  font-family: "BebasNeue";
+  font-size: 35px;
+  font-weight: 700;
+  text-transform: uppercase;
+  line-height: 37px;
+  letter-spacing: 0.38px;
+}
+footer article section:last-child > span {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  height: 20px;
+  margin: 0;
+  color: #000000;
+  opacity: 0.8;
+  font-family: "BebasNeue";
+  font-size: 35px;
+  font-weight: 700;
+  text-transform: uppercase;
+  line-height: 37px;
+  letter-spacing: 0.38px;
 }
