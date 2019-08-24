@@ -51,7 +51,7 @@ header nav div:last-child ul li {
 }
 header nav div:last-child ul li a {
   text-decoration: none;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Montserrat';
   color: #666;
   font-weight: 600;
 }
@@ -121,7 +121,7 @@ main > aside h2:first-child {
   z-index: 10;
 }
 main > aside h2:nth-child(2) {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Montserrat';
   letter-spacing: 1px;
   font-weight: 900;
   text-align: center;
@@ -129,7 +129,7 @@ main > aside h2:nth-child(2) {
 }
 main > aside .exp {
   display: block;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Montserrat';
   background: transparent;
   border: solid 1px #fa4772;
   z-index: 10;
@@ -200,4 +200,37 @@ main > article .mainProd div {
   width: 370px;
   height: 265px;
   background: url('../img/sales/sprite.jpg') no-repeat;
+}
+main > article nav {
+  display: block;
+  position: relative;
+  padding: 0;
+}
+main > article nav div {
+  display: block;
+  position: relative;
+  width: 100%;
+  height: inherit;
+  padding: 0;
+  margin: 0 auto;
+}
+main > article nav div ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  position: relative;
+  height: inherit;
+  list-style-type: none;
+}
+main > article nav div ul li {
+  font-family: 'Montserrat';
+  font-weight: 600;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+main > article nav div ul .active {
+  color: #f7657d;
 }

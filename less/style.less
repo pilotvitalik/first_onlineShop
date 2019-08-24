@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
 
-@mainFont: 'Montserrat',sans-serif;
+@mainFont: 'Montserrat';
 @headFont: 'Lato',sans-serif;
 @bdef: solid 1px red;
 
@@ -167,6 +167,35 @@ main{
 				width: 370px;
 				height: 265px;
 				background: url('../img/sales/sprite.jpg') no-repeat;
+			}
+		}
+		nav{
+			display: block;
+			position: relative;
+			padding: 0;
+			div{
+				display: block;
+				position: relative;
+				width: 100%;
+				height: inherit;
+				padding: 0;
+				margin: 0 auto;
+				ul{
+					display: flex;
+					justify-content: space-between;
+					position: relative;
+					height: inherit;
+					list-style-type: none;
+					li{
+						font-family: @mainFont;
+						font-weight: 600;
+						letter-spacing: 1px;
+						text-transform: uppercase;
+					}
+					.active{
+						color: #f7657d;
+					}
+				}
 			}
 		}
 	}
