@@ -176,3 +176,28 @@ main > aside .slider > span {
   letter-spacing: 1px;
   z-index: 10;
 }
+main > article {
+  width: 100%;
+  height: auto;
+}
+main > article h2 {
+  display: none;
+}
+main > article .mainProd {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  position: relative;
+  margin: 0 auto;
+}
+main > article .mainProd h3 {
+  display: none;
+}
+main > article .mainProd div {
+  width: 370px;
+  height: 265px;
+  background: url('../img/sales/sprite.jpg') no-repeat;
+}
