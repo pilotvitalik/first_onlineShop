@@ -434,3 +434,81 @@ main > article .fireEvent button {
 main > article .fireEvent button:hover {
   cursor: pointer;
 }
+main > article .feedback {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  position: relative;
+  width: 100%;
+  margin: 0;
+}
+main > article .feedback h3 {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  color: #333;
+  font-family: 'Montserrat';
+}
+main > article .feedback h3 b {
+  text-decoration: line-through;
+  font-weight: 700;
+}
+main > article .feedback p {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  margin: 0 auto;
+  color: #333;
+  font-family: 'Lato', sans-serif;
+}
+main > article .feedback p b {
+  color: #f7657d;
+}
+main > article .feedback form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  position: relative;
+  padding: 0;
+}
+main > article .feedback form label {
+  display: block;
+  position: relative;
+  height: 100%;
+  margin: 0;
+}
+main > article .feedback form label input {
+  display: block;
+  position: relative;
+  width: inherit;
+  color: #7e7e7e;
+  font-family: 'Lato', sans-serif;
+  text-transform: uppercase;
+  border: none;
+  border-bottom: solid 1px #eee;
+}
+main > article .feedback form button {
+  display: block;
+  position: relative;
+  color: #7e7e7e;
+  font-family: 'Lato', sans-serif;
+  text-transform: uppercase;
+  background: transparent;
+  border: none;
+  border-bottom: solid 1px #eee;
+  outline: none;
+}
+main > article .feedback form button:hover {
+  cursor: pointer;
+}

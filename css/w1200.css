@@ -266,3 +266,36 @@ main > article .fireEvent button {
   margin: 15px auto;
   font-size: 13px;
 }
+main > article .feedback {
+  height: 374px;
+}
+main > article .feedback h3 {
+  margin: 105px auto 10px auto;
+  font-size: 30px;
+}
+main > article .feedback h3 b {
+  margin-right: 10px;
+}
+main > article .feedback p {
+  font-size: 18px;
+}
+main > article .feedback p b {
+  margin-left: 5px;
+}
+main > article .feedback form {
+  width: 400px;
+  height: 30px;
+  margin: 40px auto;
+}
+main > article .feedback form label {
+  width: 320px;
+}
+main > article .feedback form label input {
+  height: 27px;
+  font-size: 13px;
+}
+main > article .feedback form button {
+  width: 100px;
+  height: 30px;
+  font-size: 13px;
+}

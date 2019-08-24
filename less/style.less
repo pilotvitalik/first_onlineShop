@@ -350,6 +350,68 @@ main{
 			button:hover{
 				cursor: pointer;
 			}
-		}	
+		}
+		.feedback{
+			display: flex;
+			flex-direction: column;
+			position: relative;
+			width: 100%;
+			margin: 0;
+			h3{
+				display: inline-flex;
+				color: #333;
+				font-family: @mainFont;
+				b{
+					text-decoration: line-through;
+					font-weight: 700;
+				}
+			}
+			p{
+				display: inline-flex;
+				margin: 0 auto;
+				color: #333;
+				font-family: @headFont;
+				b{
+					color: #f7657d;
+				}
+			}
+			form{
+				display: flex;
+				flex-direction: row;
+				justify-content: space-between;
+				position: relative;
+				padding: 0;
+				label{
+					display: block;
+					position: relative;
+					height: 100%;
+					margin: 0;
+					input{
+						display: block;
+						position: relative;
+						width: inherit;
+						color: #7e7e7e;
+						font-family: @headFont;
+						text-transform: uppercase;
+						border: none;
+						border-bottom: solid 1px #eee;
+					}
+				}
+				button{
+					display: block;
+					position: relative;
+					color: #7e7e7e;
+					font-family: @headFont;
+					text-transform: uppercase;
+					background: transparent;
+					border: none;
+					border-bottom: solid 1px #eee;
+					outline: none;
+				}
+				button:hover{
+					cursor: pointer;
+				}
+			}
+		}
 	}
 }
