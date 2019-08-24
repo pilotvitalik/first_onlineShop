@@ -192,11 +192,164 @@ main{
 						letter-spacing: 1px;
 						text-transform: uppercase;
 					}
+					li:hover{
+						cursor: pointer;
+						color: #f7657d;
+					}
 					.active{
 						color: #f7657d;
 					}
 				}
 			}
 		}
+		.prod{
+			display: flex;
+			justify-content: space-between;
+			flex-wrap: wrap;
+			position: relative;
+			padding: 0;
+			h3{
+				display: none;
+			}
+			&>div{
+				display: block;
+				position: relative;
+				background: url('../img/shop/sprite.jpg') no-repeat;
+				padding: 0;
+				margin: 0;
+				span,div, h5{
+					display: inline-block;
+					position: absolute;
+				}
+				&>span:first-child{
+					font-family: @headFont;
+					text-transform: uppercase;
+					color: #fff;
+					background: #000;
+				}
+				&>span:first-child:after{
+					content: '';
+					display: block;
+					position: absolute;
+					width: 0;
+					height: 0;
+					border-style: solid;
+					border-color: #000 transparent transparent transparent;
+				}
+				.buy{
+					display: flex;
+					flex-direction: row;
+					position: relative;
+					width: 100%;
+					&>span{
+						display: inline-flex;
+						justify-content: center;
+						align-items: center;
+						height: 100%;
+						font-family: @headFont;
+						text-transform: uppercase;
+						font-weight: 600;
+						color: #fff;
+						background: #000;
+					}
+					.box{
+						display: block;
+						position: relative;
+						background: url('../img/sprite/sprite.svg') #f7657d no-repeat;
+					}
+					.view{
+						display: block;
+						position: relative;
+						background: url('../img/sprite/sprite.svg') #000 no-repeat;
+					}
+					.like{
+						display: block;
+						position: relative;
+						background: url('../img/sprite/sprite.svg') #000 no-repeat;
+					}
+				}
+				&>div:last-child{
+					display: flex;
+					flex-direction: column;
+					justify-content: space-between;
+					position: absolute;
+					h5{
+						position: relative;
+						font-family: @headFont;
+						color: #7a7a7a;
+						font-weight: 200;
+						margin: 0;
+					}
+					&>div{
+						display: flex;
+						flex-direction: row;
+						align-items: flex-start;
+						position: relative;
+						margin: 0;
+						span{
+							display: inline-flex;
+							position: relative;
+							font-family: @headFont;
+							color: #7a7a7a;
+							font-weight: 600;
+						}
+						.firstP{
+							text-decoration: line-through;
+						}
+						.secondP{
+							color: #f7657d;
+						}
+					}
+				}
+			}
+		}
+		.fireEvent{
+			display: flex;
+			flex-direction: column;
+			position: relative;
+			padding: 0;
+			margin: 0 auto;
+			background: url('../img/event/event.jpg') no-repeat;
+			h3{
+				display: inline-flex;
+				color: #000000;
+				font-family: @headFont;
+				font-weight: 800;
+				text-transform: uppercase;
+			}
+			.timer{
+				display: block;
+				position: relative;
+				margin: 0 auto;
+			}
+			div:nth-child(3){
+				display: flex;
+				justify-content: space-between;
+				position: relative;
+				margin: 0 auto;
+				span{
+					display: inline-flex;
+					margin: auto 0;
+					color: #333;
+					font-family: @headFont;
+					font-weight: 400;
+					text-transform: uppercase;
+				}
+			}
+			button{
+				display: block;
+				position: relative;
+				padding: 0;
+				color: #333;
+				font-family: @mainFont;
+				text-transform: uppercase;
+				background: transparent;
+				border: none;
+				border-bottom: solid 1px #333;
+			}
+			button:hover{
+				cursor: pointer;
+			}
+		}	
 	}
 }

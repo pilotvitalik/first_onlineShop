@@ -231,6 +231,206 @@ main > article nav div ul li {
   letter-spacing: 1px;
   text-transform: uppercase;
 }
+main > article nav div ul li:hover {
+  cursor: pointer;
+  color: #f7657d;
+}
 main > article nav div ul .active {
   color: #f7657d;
+}
+main > article .prod {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  position: relative;
+  padding: 0;
+}
+main > article .prod h3 {
+  display: none;
+}
+main > article .prod > div {
+  display: block;
+  position: relative;
+  background: url('../img/shop/sprite.jpg') no-repeat;
+  padding: 0;
+  margin: 0;
+}
+main > article .prod > div span,
+main > article .prod > div div,
+main > article .prod > div h5 {
+  display: inline-block;
+  position: absolute;
+}
+main > article .prod > div > span:first-child {
+  font-family: 'Lato', sans-serif;
+  text-transform: uppercase;
+  color: #fff;
+  background: #000;
+}
+main > article .prod > div > span:first-child:after {
+  content: '';
+  display: block;
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-color: #000 transparent transparent transparent;
+}
+main > article .prod > div .buy {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  position: relative;
+  width: 100%;
+}
+main > article .prod > div .buy > span {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100%;
+  font-family: 'Lato', sans-serif;
+  text-transform: uppercase;
+  font-weight: 600;
+  color: #fff;
+  background: #000;
+}
+main > article .prod > div .buy .box {
+  display: block;
+  position: relative;
+  background: url('../img/sprite/sprite.svg') #f7657d no-repeat;
+}
+main > article .prod > div .buy .view {
+  display: block;
+  position: relative;
+  background: url('../img/sprite/sprite.svg') #000000 no-repeat;
+}
+main > article .prod > div .buy .like {
+  display: block;
+  position: relative;
+  background: url('../img/sprite/sprite.svg') #000000 no-repeat;
+}
+main > article .prod > div > div:last-child {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  position: absolute;
+}
+main > article .prod > div > div:last-child h5 {
+  position: relative;
+  font-family: 'Lato', sans-serif;
+  color: #7a7a7a;
+  font-weight: 200;
+  margin: 0;
+}
+main > article .prod > div > div:last-child > div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  position: relative;
+  margin: 0;
+}
+main > article .prod > div > div:last-child > div span {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  position: relative;
+  font-family: 'Lato', sans-serif;
+  color: #7a7a7a;
+  font-weight: 600;
+}
+main > article .prod > div > div:last-child > div .firstP {
+  text-decoration: line-through;
+}
+main > article .prod > div > div:last-child > div .secondP {
+  color: #f7657d;
+}
+main > article .fireEvent {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  position: relative;
+  padding: 0;
+  margin: 0 auto;
+  background: url('../img/event/event.jpg') no-repeat;
+}
+main > article .fireEvent h3 {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  color: #000000;
+  font-family: 'Lato', sans-serif;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+main > article .fireEvent .timer {
+  display: block;
+  position: relative;
+  margin: 0 auto;
+}
+main > article .fireEvent div:nth-child(3) {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  position: relative;
+  margin: 0 auto;
+}
+main > article .fireEvent div:nth-child(3) span {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  margin: auto 0;
+  color: #333;
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+main > article .fireEvent button {
+  display: block;
+  position: relative;
+  padding: 0;
+  color: #333;
+  font-family: 'Montserrat';
+  text-transform: uppercase;
+  background: transparent;
+  border: none;
+  border-bottom: solid 1px #333;
+}
+main > article .fireEvent button:hover {
+  cursor: pointer;
 }

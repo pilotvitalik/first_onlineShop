@@ -30,13 +30,13 @@ header{
 		.box{
 			width: 20px;
 			height: 20px;
-			background-position: -1px 68px;
+			background-position: -1px 81px;
 		}
 		.set{
 			background-position: -1px -2px;
 		}
 		.box{
-			background-position: -1px -83px;
+			background-position: -1px -109px;
 		}
 	}
 }
@@ -111,17 +111,147 @@ main{
 		nav{
 			width: 30%;
 			height: 70px;
-			margin: 30px auto 0 auto;
+			margin: 10px auto 30px auto;
 			div{
 				ul{
 					flex-direction: row;
 					align-items: center;
 					li{
-						font-size: 12px;
+						font-size: 13px;
 					}
 				}
 			}
 		}
-
+		.prod{
+			flex-direction: row;
+			width: 95%;
+			height: 900px;
+			padding-bottom: -50px;
+			margin: 0 auto;
+			&>div{
+				width: 240px;
+				height: 333px;
+				background-size: 503% 202%;
+				background-position: -2px -2px;
+				&>span:first-child{
+					width: 37px;
+					height: 23px;
+					top: 0;
+					padding: 7px 8px 0 15px;
+					font-size: 14px;
+				}
+				&>span:first-child:after{
+					border-width: 30px 14px 0 0;
+					top: 0;
+					left: 60px;
+				}
+				.buy{
+					height: 35px;
+					top: 298.5px;
+					&>span{
+						width: 100px;
+						font-size: 13px;
+					}
+					.box{
+						width: 25px;
+						height: 84%;
+						left: 102px;
+						top: 3px;
+						background-position: 1px -104.5px;
+						transform: scale(1.2,1.2);
+					}
+					.view{
+						width: 25px;
+						height: 84%;
+						left: 155px;
+						top: 2.5px;
+						background-position: 1.5px -23px;
+						transform: scale(1.2,1.2);
+					}
+					.like{
+						width: 25px;
+						height: 84%;
+						left: 162px;
+						top: 2.5px;
+						background-position: 1.5px -46px;
+						transform: scale(1.2,1.2);
+					}
+				}
+				&>div:last-child{
+					top: 340px;
+					padding-left: 15px;
+					padding-top: 5px;
+					height: 50px;
+					h5{
+						font-size: 16px;
+					}
+					&>div{
+						span{
+							font-size: 16px;
+						}
+						.line{
+							margin-left: 10px;
+						}
+						.secondP{
+							margin-left: 10px
+						}
+					}
+				}
+			}
+			&>#fames{
+				background-position: -243px -2px;
+			}
+			&>#aenean{
+				background-position: -484px -2px;
+			}
+			&>#neck{
+				background-position: -726px -2px;
+			}
+			&>#z-neck{
+				background-position: -966px -2px;
+			}
+			&>#t-shirt_logo{
+				background-position: -1.5px -338px;
+			}
+			&>#polo{
+				background-position: -243px -338px;
+			}
+			&>#long{
+				background-position: -484px -338px;
+			}
+			&>#t-shirt{
+				background-position: -726px -338px;
+			}
+			&>#v-neck{
+				background-position: -966px -338px;
+			}
+		}
+		.fireEvent{
+			width: 95%;
+			height: 400px;
+			background-size: 124.5% 100%;
+			h3{
+				margin: 85px auto 40px auto;
+				font-size: 30px;
+			}
+			.timer{
+				width: 650px;
+				height: 50px;
+			}
+			div:nth-child(3){
+				flex-direction: row;
+				width: 400px;
+				height: 50px;
+				span{
+					font-size: 16px;
+				}
+			}
+			button{
+				width: 90px;
+				height: 30px;
+				margin: 15px auto;
+				font-size: 13px;
+			}
+		}	
 	}
 }
