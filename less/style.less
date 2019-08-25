@@ -73,6 +73,21 @@ header{
 			position: relative;
 			margin: auto 0;
 			background: url(../img/sprite/sprite.svg);
+			span{
+				display: inline-flex;
+				position: absolute;
+				width: 16px;
+				height: 16px;
+				top: -11px;
+				left: 11px;
+				font-size: 10px;
+				color: #fff;
+				font-weight: 500;
+				justify-content: center;
+				align-items: center;
+				background: #f7657d;
+				border-radius: 50%;
+			}
 		}
 	}
 }
@@ -419,10 +434,9 @@ footer{
 	display: block;
 	position: relative;
 	width: 100%;
-	height: 425px;
+	height: auto;
 	padding: 0;
 	margin: 0;
-	border: @bdef;
 	article{
 		display: flex;
 		flex-direction: column;
@@ -436,11 +450,8 @@ footer{
 		}
 		section:nth-child(2){
 			display: flex;
-			flex-direction: row;
 			position: relative;
 			justify-content: space-between;
-			width: 85%;
-			height: 200px;
 			padding: 0;
 			margin: 0 auto;
 			h3{
@@ -451,7 +462,6 @@ footer{
 				margin: 0;
 				color: #505050;
 				font-family: @headFont;
-				font-size: 14px;
 				font-weight: 700;
 				text-transform: uppercase;
 				letter-spacing: 2px;
@@ -461,8 +471,6 @@ footer{
 				flex-direction: column;
 				justify-content: space-between;
 				position: relative;
-				width: 245px;
-				height: 182px;
 				padding: 0;
 				margin: 0;
 				p{
@@ -470,8 +478,6 @@ footer{
 					margin: 0;
 					color: #505050;
 					font-family: @headFont;
-					font-size: 14px;
-					line-height: 25px;
 				}
 			}
 			.footerMenu{
@@ -479,14 +485,11 @@ footer{
 				flex-direction: column;
 				justify-content: space-between;
 				position: relative;
-				width: 190px;
-				height: 190px;
 				margin: 0;
 				&>div{
 					display: flex;
 					position: relative;
 					width: 100%;
-					height: 130px;
 					margin: 0;
 					ul{
 						display: flex;
@@ -503,12 +506,9 @@ footer{
 							margin: 0;
 							a{
 								display: inline-flex;
-								//height: 20px;
 								margin: 0;
 								color: #404040;
 								font-family: @headFont;
-								font-size: 14px;
-								line-height: 20px;
 							}
 						}
 					}
@@ -516,12 +516,8 @@ footer{
 			}
 			.foto{
 				display: flex;
-				flex-direction: row;
 				justify-content: space-around;
-				flex-wrap: wrap;
 				position: relative;
-				width: 300px;
-				height: 193.5px;
 				margin: 0;
 				h4{
 					display: none;
@@ -529,102 +525,63 @@ footer{
 				&>div{
 					display: block;
 					position: relative;
-					width: 87px;
-					height: 87px;
 					margin: 0;
 					background: url(../img/footer/sprite.jpg) grey no-repeat;
-					background-size: 315% 210%;
-					background-position: -3px -3px;
-				}
-				#_2{
-					background-position: -94px -3px;
-				}
-				#_3{
-					background-position: -185px -3px;
-				}
-				#_4{
-					background-position: -3px -93px;
-				}
-				#_5{
-					background-position: -94px -93px;
-				}
-				#_6{
-					background-position: -185px -93px;
 				}
 			}
 		}
 		section:last-child{
+			display: flex;
+			flex-direction: row;
+			justify-content: space-around;
+			position: relative;
+			width: 100%;
+			background: #f8f8f8;
 			h3{
 				display: none;
 			}
 			.social{
 				display: flex;
-				flex-direction: column;
+				flex-direction: row;
 				justify-content: space-between;
 				position: relative;
-				width: 200px;
-				height: 183px;
-				top: 0px;
-				left: 0px;
 				padding: 0;
-				margin: 0;
-				span{
+				&>span{
 					display: inline-flex;
-					height: 20px;
-					margin: 0;
-					color: #000000;
-					opacity: 0.8;
-					font-family: "BebasNeue";
-					font-size: 35px;
-					font-weight: 700;
-					text-transform: uppercase;
-					line-height: 37px;
-					letter-spacing: 0.38px;
+					margin: auto 0;
+					color: #333;
+					font-family: @headFont;
 				}
 				&>div{
 					display: block;
 					position: relative;
-					width: 276px;
-					height: 100px;
-					top: 0px;
-					left: 0px;
-					padding: 0;
+					height: inherit;
 					margin: 0;
 					ul{
 						display: flex;
-						flex-direction: column;
+						flex-direction: row;
 						justify-content: space-between;
 						position: relative;
-						width: 200px;
-						height: 183px;
-						top: 0px;
-						left: 0px;
-						padding: 0;
+						width: inherit;
+						height: inherit;
 						margin: 0;
 						li{
 							display: block;
 							position: relative;
-							width: 276px;
-							height: 100px;
-							top: 0px;
-							left: 0px;
-							padding: 0;
 							margin: 0;
-							background: url() grey no-repeat;
-							background-size: cover;
-							background-position: 0px 0px;
+							border-radius: 50%;
+							border: solid 1px #9c9c9c;
 							a{
-								display: inline-flex;
-								height: 20px;
-								margin: 0;
-								color: #000000;
-								opacity: 0.8;
-								font-family: "BebasNeue";
-								font-size: 35px;
-								font-weight: 700;
-								text-transform: uppercase;
-								line-height: 37px;
-								letter-spacing: 0.38px;
+								display: inline-block;
+								position: relative;
+								width: inherit;
+								height: inherit;
+								border-radius: 50%;
+								i{
+									display: inline-block;
+									position: relative;
+									color: #9c9c9c;
+								}
 							}
 						}
 					}
@@ -632,16 +589,9 @@ footer{
 			}
 			&>span{
 				display: inline-flex;
-				height: 20px;
-				margin: 0;
-				color: #000000;
-				opacity: 0.8;
-				font-family: "BebasNeue";
-				font-size: 35px;
-				font-weight: 700;
-				text-transform: uppercase;
-				line-height: 37px;
-				letter-spacing: 0.38px;
+				margin: auto 0;
+				color: #333;
+				font-family: @headFont;
 			}
 		}
 	}
